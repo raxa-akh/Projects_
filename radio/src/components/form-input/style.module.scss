@@ -1,0 +1,66 @@
+.FormInput_wrapper {
+  width: 100%;
+}
+.mb_16 {
+  margin-bottom: 16px;
+}
+.mb_24 {
+  margin-bottom: 24px;
+}
+
+.FormInput {
+  cursor: text;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 14px 12px 14px 16px;
+  height: 60px;
+  border: 1px solid transparent;
+  background-color: #000000;
+  transition: all 0.2s ease 0s;
+  background-color: #000000;
+  border-radius: 8px;
+  &:hover {
+    @media(hover: hover) {
+      border: 1px solid #1398A0;
+    }
+  }
+  &.focused {
+    background-color: #091616;
+    border: 1px solid #1398A0;
+  }
+  &.withError {
+    margin-bottom: 8px;
+    border: 1px solid #FF2424;
+  }
+  & > input {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    flex: 1 1 auto;
+    &:focus {
+      outline: none;
+      border: none;
+    }
+    &::placeholder {
+      color: #999999;
+    }
+  }
+
+  & > button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 32px;
+    width: 32px;
+  }
+}
+
+.FormInput_error {
+  width: 100%;
+  color: #FF2424;
+  font-size: 14px;
+  line-height: 17px;
+  word-break: break-all;
+}

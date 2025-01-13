@@ -1,0 +1,11 @@
+.MiniCarousel {
+  & .swiper {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  & .swiper-slide  {
+    width: fit-content;
+  }
+}
+

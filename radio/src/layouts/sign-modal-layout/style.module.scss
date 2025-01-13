@@ -1,0 +1,157 @@
+.overflowHidden {
+  overflow: hidden !important;
+}
+
+
+.SignModalLayout {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: fit-content;
+  width: 100vw;
+  z-index: 9999;
+  box-sizing: border-box;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.6);
+  backdrop-filter: blur(2px);
+  overflow: hidden;
+}
+
+.SignModalContent { 
+  overflow-y: auto;
+  background-color: #091616;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: absolute;
+  padding: 22px 20px;
+  height: fit-content;
+  @media (min-width: 1024px) {
+    width: 604px;
+    right: 0;
+    top: 0;
+    padding: 44px 52px;
+  }
+
+  & > * {
+    flex: 0 0 auto;
+  }
+}
+
+.SignModalContent_head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.SignModalContent_head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 42px;
+  @media (min-width: 1024px) {
+    margin-bottom: 80px;
+  }
+  & > button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.SignModalLayout_title {
+  line-height: 29px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+  @media (min-width: 1024px) {
+    line-height: 39px;
+    font-size: 32px;
+  }
+}
+
+.SignModalLayout_player {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.SignInModal_player {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+	width: 329px;
+	flex: 0 0 auto;
+  & > div {
+    background-color: rgba(12, 14, 14);
+  }
+	@media (min-width: 1250px) {
+		width: 400px;
+	}
+	@media (min-width: 1440px) {
+		width: 464px;
+	}
+}
+
+.SignInModal_playerBlur1 {
+	position: absolute;
+	top: 60px;
+	left: -179px;
+	width: 492px;
+	height: 296px;
+	object-fit: contain;
+	filter: blur(73.2px);
+}
+.SignInModal_playerBlur2 {
+	position: absolute;
+	top: -93px;
+	left: 52.5px;
+	width: 406px;
+	height: 162px;
+	object-fit: contain;
+	filter: blur(73.2px);
+}
+
+.SignInModal_playerBlur3 {
+	position: absolute;
+	left: 0;
+	bottom: -64px;
+	object-fit: contain;
+	filter: blur(73.2px);
+}
+
+
+
+.SignModalLayout_blur1 {
+	filter: blur(73.2px);
+  position: absolute;
+  top: 46px;
+  left: -60px;
+  width: 365px;
+  height: 235px;
+  object-fit: contain;
+  z-index: 0;
+  transform: rotate(152deg) scale(1.7);
+}
+.SignModalLayout_blur2 {
+  filter: blur(73.2px);
+  position: absolute;
+  bottom: -51px;
+  left: -60px;
+  width: 365px;
+  height: 235px;
+  object-fit: contain;
+  z-index: 0;
+  transform: scale(1.1) rotate(161deg);
+}
+.SignModalLayout_content {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+}
+.SignModalLayout_blur {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+}

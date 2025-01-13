@@ -1,0 +1,84 @@
+.OpenedPlayerLayout_wrapper {
+  height: fit-content;
+  max-height: 100%;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.OpenedPlayerLayout {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: fit-content;
+
+}
+
+.OpenedPlayerLayout_controls {
+  margin-bottom: 24px;
+  flex: 0 0 auto;
+  height: 358px;
+  width: 100%;
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+  max-width: 390px;
+
+
+  & > img {
+    background-color: black;
+    object-fit: cover;
+  }
+}
+
+.OpenedPlayerLayout_info {
+  margin-bottom: 32px;
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 6px;
+  max-width: 100%;
+}
+
+.OpenedPlayerLayout_infoName {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  color: #fff;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}
+.OpenedPlayerLayout_infoAuthor {
+  font-size: 20px;
+  line-height: 24px;
+  color: #1398A0;
+    white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}
+.OpenedPlayerLayout_controlsBottom {
+  background-color: rgba(9, 22, 22, 0.8);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-direction: column;
+  padding: 12px 4px 12px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.OpenedPlayerLayout_rightTopControls {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap:5px;
+}
+.OpenedPlayerLayout_bottomAddon {
+  width: 100%;
+}

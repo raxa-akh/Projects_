@@ -1,0 +1,9 @@
+.currentDate {
+  color: var(--gray-500, #667085);
+  font-family: Inter, Text md/Regular;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  align-self: stretch;
+}

@@ -1,0 +1,290 @@
+.notifications_wrap {
+	position: absolute;
+	top: 120%;
+	z-index: 3;
+	background: #091616;
+	border-radius: 12px;
+	min-width: 369px;
+	overflow-y: hidden;
+}
+
+.expanded {
+	height: 80vh;
+	padding-right: 10px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+
+.notifications_head {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	padding: 12px 18px;
+	border-bottom: 1px solid #000000;
+
+	p {
+		font-size: 16px;
+		font-weight: 500;
+		text-align: left;
+		color: #fff;
+	}
+}
+
+.elipse {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 0;
+}
+
+.elipse2 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 0;
+}
+
+.toggle_switch {
+	width: 40px;
+	height: 20px;
+	background: #000;
+	border-radius: 16px;
+	position: relative;
+	cursor: pointer;
+	transition: background 0.3s;
+}
+
+.toggle_circle {
+	width: 16px;
+	height: 16px;
+	background: #fff;
+	border-radius: 50%;
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	transition: left 0.3s;
+}
+
+.toggled {
+	background: linear-gradient(90deg, #1398a0 0%, #1bb8bd 67.54%);
+}
+
+.toggled .toggle_circle {
+	left: 22px;
+}
+
+.empty_not {
+	padding: 12px 20px;
+
+	h3 {
+		font-size: 16px;
+		font-weight: 500;
+
+		text-align: center;
+		color: #999999;
+	}
+
+	p {
+		font-size: 16px;
+		font-weight: 500;
+
+		text-align: center;
+		color: #999999;
+	}
+}
+
+.notifications_control {
+	padding: 16px 16px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+
+	p {
+		font-size: 16px;
+		font-weight: 600;
+		letter-spacing: -0.02em;
+		text-align: left;
+		color: #1398a0;
+	}
+	position: relative;
+}
+
+.delete_all {
+	position: absolute;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 8px;
+	padding: 12px;
+	background: #091616;
+	border: 1px solid #333333;
+	box-shadow: 0px -2px 9px 0px #67666629 inset;
+	border-radius: 8px;
+	top: 80%;
+	right: 0;
+
+	p {
+		font-size: 14px;
+		font-weight: 400;
+		letter-spacing: -0.02em;
+		text-align: left;
+		color: #ffffff;
+	}
+}
+
+.notifications {
+	position: relative;
+	z-index: 2;
+	height: 100%;
+	overflow-y: scroll;
+
+	&::-webkit-scrollbar {
+		width: 4px;
+	}
+
+	&::-webkit-scrollbar-track {
+		background: #1c1c1c;
+		border-radius: 2px;
+	}
+
+	&::-webkit-scrollbar-thumb {
+		background: linear-gradient(90deg, #1398a0 0%, #1bb8bd 67.54%);
+		border-radius: 2px;
+	}
+}
+
+.notification {
+	display: flex;
+	padding: 0 16px;
+	justify-content: space-between;
+	align-items: stretch;
+	gap: 8px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	cursor: pointer;
+
+	label {
+		display: flex;
+		flex-direction: column;
+
+		p {
+			font-size: 14px;
+			font-weight: 500;
+			letter-spacing: -0.02em;
+			text-align: left;
+			color: #fff;
+		}
+
+		span {
+			font-size: 14px;
+			font-weight: 500;
+			letter-spacing: -0.02em;
+			text-align: left;
+			color: #999;
+		}
+	}
+
+	.delete {
+		display: flex;
+		align-items: flex-end;
+	}
+}
+
+.notification:hover {
+	background-color: #000;
+}
+
+.show_more {
+	position: relative;
+	z-index: 2;
+	background: #000000;
+	padding: 16px 16px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+
+	p {
+		font-size: 14px;
+		font-weight: 500;
+		color: #1398a0;
+		letter-spacing: -0.02em;
+		text-align: center;
+	}
+}
+
+@media (max-width: 1024px) {
+	.notifications_wrap {
+		position: absolute;
+		top: 76px;
+		z-index: 3;
+		background: #091616;
+		border-radius: unset;
+		min-width: 100%;
+		height: calc(100vh - 170px);
+		margin-left: -24px;
+		overflow-y: hidden;
+	}
+
+	.notifications {
+		position: relative;
+		z-index: 2;
+		height: calc(100% + 100px);
+		overflow-y: scroll;
+
+		&::-webkit-scrollbar {
+			width: 4px;
+		}
+
+		&::-webkit-scrollbar-track {
+			background: #1c1c1c;
+			border-radius: 2px;
+		}
+
+		&::-webkit-scrollbar-thumb {
+			background: linear-gradient(90deg, #1398a0 0%, #1bb8bd 67.54%);
+			border-radius: 2px;
+		}
+	}
+
+	.notification {
+		display: flex;
+		padding: 0 16px;
+		justify-content: flex-start;
+		align-items: stretch;
+		gap: 8px;
+		padding-top: 8px;
+		padding-bottom: 8px;
+		cursor: pointer;
+
+		label {
+			display: flex;
+			flex-direction: column;
+
+			p {
+				font-size: 14px;
+				font-weight: 500;
+				letter-spacing: -0.02em;
+				text-align: left;
+				color: #fff;
+			}
+
+			span {
+				font-size: 14px;
+				font-weight: 500;
+				letter-spacing: -0.02em;
+				text-align: left;
+				color: #999;
+			}
+		}
+
+		.delete {
+			width: 100%;
+			justify-content: flex-end;
+			display: flex;
+			align-items: flex-end;
+		}
+	}
+}

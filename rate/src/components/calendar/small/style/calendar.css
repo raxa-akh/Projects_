@@ -1,0 +1,78 @@
+.calendar-content {
+  width: 120%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  border: 1px solid var(--gray-200, #eaecf0);
+  background: var(--White, #fff);
+  box-shadow: 0px 8px 8px -4px rgba(16, 24, 40, 0.03),
+    0px 20px 24px -4px rgba(16, 24, 40, 0.08);
+  margin-top: 1vh;
+}
+.inputs-header {
+  display: flex;
+  justify-content: space-evenly;
+  position: absolute;
+  top: 50px;
+  width: 400px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.input-header {
+  display: flex;
+  padding: 8px 14px;
+  align-items: center;
+  border-radius: 8px;
+  border: 1px solid var(--gray-300, #d0d5dd);
+  background: var(--White, #fff);
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+  width: 170px;
+  margin: 20px 1.5px;
+  height: 45px;
+  font-size: 15px;
+}
+.btn-calendars {
+  margin-bottom: 2vh;
+}
+/* .input-dates {
+  display: flex;
+  padding: 10px 35px;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  border-radius: 8px;
+  border: 1px solid var(--gray-300, #d0d5dd);
+  background: var(--White, #fff);
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+  width: 100%;
+  height: 50px;
+  font-size: 15px;
+} */
+
+/* .input-select-dates {
+  margin-top: 1vh;
+  width: 100%;
+}
+.calendar-icon {
+  position: absolute;
+  margin: 14px 0px 0px 6px;
+} */
+.react-calendar__navigation {
+  margin-bottom: 5.5em;
+}
+
+не меняется стиль .react-calendar__month-view__days__day--neighboringMonth {
+  color: #757575;
+}
+.react-calendar__tile--active {
+  border-radius: 50%;
+}
+abbr {
+  text-decoration: none;
+  color: #344054;
+}
+.react-calendar__month-view__days {
+  flex: 0 0 14.2857%;
+}

@@ -1,0 +1,11 @@
+.btn {
+  border: none;
+  font-family: Inter, Text md/Semibold;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+  cursor: pointer;
+}

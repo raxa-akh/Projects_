@@ -1,0 +1,11 @@
+.Copyright_copyRight {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: #fff;
+  font-size: 14px;
+
+  & > svg {
+    flex: 0 0 auto;
+  }
+}

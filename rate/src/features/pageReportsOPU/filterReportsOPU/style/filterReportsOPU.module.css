@@ -1,0 +1,36 @@
+.container_filter {
+  display: flex;
+  border-radius: 8px;
+  padding: 8px 32px;
+  align-items: flex-start;
+  border: 1px solid var(--gray-300, #d0d5dd);
+  background: var(--White, #fff);
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+  height: 100px;
+}
+.container_filter_content {
+  display: flex;
+  padding: 16px 0px;
+  justify-content: flex-end;
+  align-items: center;
+  flex: 1 0 0;
+  border-radius: 8px;
+}
+.container_filter_content_select_btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.container_filter_content_select_btn_left {
+  display: flex;
+  gap: 32px;
+}
+.react_select {
+  height: 44px;
+  width: 100%;
+  border-radius: 8px;
+}
+.select {
+  width: 328px;
+}

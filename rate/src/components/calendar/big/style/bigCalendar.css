@@ -1,0 +1,101 @@
+.calendars {
+  display: flex;
+  border-radius: 8px;
+  border: 1px solid var(--gray-200, #eaecf0);
+  background: var(--White, #fff);
+  box-shadow: 0px 8px 8px -4px rgba(16, 24, 40, 0.03),
+    0px 20px 24px -4px rgba(16, 24, 40, 0.08);
+  margin-top: 1vh;
+}
+.react-calendar {
+  border: none;
+  width: 360px;
+  height: 581px;
+}
+.select-date {
+  margin: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+.type-date,
+.selected {
+  border: none;
+  outline: none;
+  background-color: white;
+  cursor: pointer;
+  font-size: 15px;
+}
+.selected {
+  color: var(--purple-2700, #3538cd);
+}
+.calendar-left,
+.calendar-right {
+  margin: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inputs-date {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+.input-date {
+  display: flex;
+  padding: 8px 14px;
+  align-items: center;
+  align-self: stretch;
+  border-radius: 8px;
+  border: 1px solid var(--gray-300, #d0d5dd);
+  background: var(--White, #fff);
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+  width: 165px;
+  height: 55px;
+  font-size: 15px;
+}
+
+.btn-calendars {
+  display: flex;
+}
+
+.react-calendar__month-view__days {
+  height: 400px;
+  font-size: 25px;
+  align-items: center;
+}
+
+.react-calendar__tile--active {
+  border-radius: 50%;
+  background: var(--purple-2600, #444ce7);
+}
+.react-calendar__tile,
+.react-calendar__month-view__days__day,
+.react-calendar__month-view__days__day--neighboringMonth {
+  height: 50px;
+  color: white;
+}
+
+.react-calendar__month-view__weekdays,
+.react-calendar__navigation__label {
+  font-size: 20px;
+}
+
+abbr {
+  text-decoration: none;
+  color: #344054;
+}
+
+.react-calendar__tile--rangeStart,
+.react-calendar__tile--range abbr {
+  color: rgb(255, 255, 255);
+}
+
+.react-calendar__tile--active:enabled:hover,
+.react-calendar__tile--active:enabled:focus {
+  background: var(--purple-2600, #444ce7);
+}

@@ -1,0 +1,29 @@
+.FooterMobileLayout {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.FooterMobileLayout_getApp {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+.FooterMobileLayout_footerDocumentsLinks {
+  margin-bottom: 24px;
+}
+.FooterMobileLayout_socialMedia {
+  margin-bottom: 32px;
+}
+
+
+.FooterMobileLayout_copyRight {
+  margin-bottom: 32px;
+  gap: 8px;
+  display: flex;
+  align-items: center;
+
+  & > img {
+    flex: 0 0 auto;
+  }
+}

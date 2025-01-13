@@ -1,0 +1,115 @@
+.MainLayoutMobile_headerWrapper {
+	width: 100%;
+	height: 88px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	align-items: center;
+	z-index: 1;
+	background-color: black;
+	border-bottom: 1px solid #333;
+}
+.MainLayoutMobile_header {
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+}
+.MainLayoutMobile_content {
+	height: 100%;
+	width: calc(100% - 20px);
+	margin: 108px auto 0;
+}
+.MainLayoutMobile_footerWrapper {
+	width: 100%;
+	padding-bottom: 101px;
+	padding-top: 32px;
+	border-top: 1px solid #333;
+}
+
+.MainLayoutMobile_footer {
+	height: 100%;
+	width: calc(100% - 40px);
+	margin: 0 auto;
+}
+.MainLayoutMobile_player {
+	border-top: 1px solid #192c2e;
+	background-color: #0c0d0d;
+	height: 80px;
+	overflow-y: hidden;
+	position: relative;
+	overflow-x: hidden;
+}
+.MainLayoutMobile_playerSwiper {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 101px;
+}
+
+.MainLayoutMobile_main {
+	margin-top: 35px;
+	flex: 1 1 auto;
+	padding-bottom: 35px;
+}
+
+.MainLayoutMobile_burgerMenu {
+	height: calc(100vh - 88px);
+	position: fixed;
+	z-index: 2;
+	left: 0;
+	top: -100%;
+	width: 100%;
+	background-color: #000;
+	overflow-y: auto;
+}
+
+.MainLayoutMobile_playerSwiperLine {
+	height: 21px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	& > div {
+		height: 5px;
+		width: 50px;
+		border-radius: 100px;
+		background-color: #707070;
+	}
+}
+
+.MainLayoutMobile_blur {
+	position: absolute;
+	top: -27px;
+	left: -68px;
+	z-index: 0;
+	transform: rotate(-58deg);
+	filter: blur(73.2px);
+}
+
+.MainLayoutMobile_player {
+	& > div {
+		z-index: 1;
+		position: relative;
+	}
+}
+
+.MainLayoutMobile_blur2 {
+	position: absolute;
+	top: 153px;
+	right: -86px;
+	z-index: 0;
+	transform: rotate(-58deg);
+	filter: blur(73.2px);
+}
+.MainLayoutMobile_blur3 {
+	position: absolute;
+	top: 711px;
+	left: 41px;
+	z-index: 0;
+	filter: blur(73.2px);
+}

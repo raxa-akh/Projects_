@@ -1,0 +1,474 @@
+.component-component {
+  display: inline-flex;
+  filter: drop-shadow(0px -2px 2.5px rgba(0, 0, 0, 0.25));
+  padding-top: 128px;
+  padding-right: 128px;
+  padding-left: 128px;
+  padding-bottom: 128px;
+  flex-direction: row;
+  background-color: rgba(255, 255, 255, 1);
+  font-family: Inter;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.component-bfinputtitle-divider-horizontal-content-a {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.component-bfframe-179button-a {
+  padding-top: 16px;
+  padding-right: 32px;
+  padding-left: 32px;
+  padding-bottom: 16px;
+  align-items: center;
+  display: flex;
+  column-gap: 384px;
+  filter: drop-shadow(0px 1px 1px rgba(16, 24, 40, 0.05));
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  align-self: stretch;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.component-frame-179 {
+  display: flex;
+  padding-right: 384px;
+  color: rgba(107, 114, 128, 1);
+  font-weight: 400;
+}
+
+.component-bfsearch-text-a {
+  padding-top: 10px;
+  padding-right: 14px;
+  padding-left: 14px;
+  padding-bottom: 10px;
+  align-items: center;
+  display: flex;
+  column-gap: 8px;
+  filter: drop-shadow(0px 1px 1px rgba(16, 24, 40, 0.05));
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  background-color: rgba(255, 255, 255, 1);
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-width: 1px;
+  border-color: rgba(209, 213, 219, 1);
+  border-style: solid;
+}
+
+.component-search {
+  height: 20px;
+  width: 20px;
+}
+
+.component-button {
+  display: flex;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  align-self: stretch;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  color: rgba(17, 24, 39, 1);
+  font-weight: 600;
+}
+
+.component-bftext-chevron-up-a {
+  padding-top: 12px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 12px;
+  align-items: center;
+  display: flex;
+  column-gap: 8px;
+  border-style: solid;
+  border-color: rgba(209, 213, 219, 1);
+  border-width: 1px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background-color: rgba(255, 255, 255, 1);
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  filter: drop-shadow(0px 1px 1px rgba(16, 24, 40, 0.05));
+}
+
+.component-chevron-up {
+  height: 20px;
+  width: 20px;
+}
+
+.component-divider {
+  height: 1px;
+  align-self: stretch;
+  background-color: rgba(229, 231, 235, 1);
+}
+
+.component-bfframe-183comtainer-comtainer-a {
+  padding-top: 32px;
+  padding-right: 384px;
+  padding-left: 32px;
+  padding-bottom: 80px;
+  display: flex;
+  column-gap: 32px;
+  background-color: rgba(249, 250, 251, 1);
+  align-self: stretch;
+}
+
+.component-bfcontainer-container-a {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  row-gap: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  font-size: 12px;
+  align-self: stretch;
+}
+
+.component-bftooltype-frame-79a {
+  padding-right: 24px;
+  flex-direction: column;
+  display: flex;
+  row-gap: 12px;
+  align-self: stretch;
+}
+
+.component-bftext-help-a {
+  align-items: center;
+  display: flex;
+  column-gap: 8px;
+  color: rgba(107, 114, 128, 1);
+}
+
+.component-help {
+  height: 20px;
+  width: 20px;
+}
+
+.component-bftooltype-tooltype-tooltype-tooltype-a {
+  flex-direction: column;
+  display: flex;
+  row-gap: 8px;
+  color: rgba(17, 24, 39, 1);
+  align-self: stretch;
+}
+
+.component-bfcheckbox-text-a {
+  align-items: center;
+  display: flex;
+  column-gap: 8px;
+}
+
+.component-checkbox {
+  display: flex;
+  align-self: stretch;
+}
+
+.component-_checkbox-base {
+  display: flex;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+  padding-top: 2px;
+  padding-right: 2px;
+  padding-left: 2px;
+  padding-bottom: 2px;
+  background-color: rgba(238, 242, 255, 1);
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  border-width: 1px;
+  border-color: rgba(79, 70, 229, 1);
+  border-style: solid;
+}
+
+.component-check {
+  height: 14px;
+  width: 14px;
+}
+
+.component-bfcheckbox-text-a0 {
+  align-items: center;
+  display: flex;
+  column-gap: 8px;
+}
+
+.component-checkbox-0 {
+  display: flex;
+  align-self: stretch;
+}
+
+.component-_checkbox-base-0 {
+  display: flex;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+  padding-top: 2px;
+  padding-right: 2px;
+  padding-left: 2px;
+  padding-bottom: 2px;
+  background-color: rgba(238, 242, 255, 1);
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  border-width: 1px;
+  border-color: rgba(79, 70, 229, 1);
+  border-style: solid;
+}
+
+.component-check-0 {
+  height: 14px;
+  width: 14px;
+}
+
+.component-bfcheckbox-text-a1 {
+  align-items: center;
+  display: flex;
+  column-gap: 8px;
+  align-self: stretch;
+}
+
+.component-checkbox-1 {
+  display: flex;
+  align-self: stretch;
+}
+
+.component-_checkbox-base-1 {
+  display: flex;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+  padding-top: 2px;
+  padding-right: 2px;
+  padding-left: 2px;
+  padding-bottom: 2px;
+  background-color: rgba(238, 242, 255, 1);
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  border-width: 1px;
+  border-color: rgba(79, 70, 229, 1);
+  border-style: solid;
+}
+
+.component-check-1 {
+  height: 14px;
+  width: 14px;
+}
+
+.component-bfcheckbox-text-a2 {
+  align-items: center;
+  display: flex;
+  column-gap: 8px;
+}
+
+.component-checkbox-2 {
+  display: flex;
+  align-self: stretch;
+}
+
+.component-_checkbox-base-2 {
+  display: flex;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+  padding-top: 2px;
+  padding-right: 2px;
+  padding-left: 2px;
+  padding-bottom: 2px;
+  background-color: rgba(238, 242, 255, 1);
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  border-width: 1px;
+  border-color: rgba(79, 70, 229, 1);
+  border-style: solid;
+}
+
+.component-check-2 {
+  height: 14px;
+  width: 14px;
+}
+
+.component-bftooltype-frame-79a0 {
+  padding-right: 24px;
+  flex-direction: column;
+  display: flex;
+  row-gap: 12px;
+  align-self: stretch;
+}
+
+.component-bftext-help-a0 {
+  align-items: center;
+  display: flex;
+  column-gap: 8px;
+  color: rgba(107, 114, 128, 1);
+}
+
+.component-help-0 {
+  height: 20px;
+  width: 20px;
+}
+
+.component-bftext-toggle-a {
+  align-items: center;
+  display: flex;
+  column-gap: 8px;
+  align-self: stretch;
+  color: rgba(17, 24, 39, 1);
+}
+
+.component-toggle {
+  display: flex;
+  align-self: stretch;
+}
+
+.component-_toggle-base {
+  display: flex;
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+  padding-left: 16px;
+  background-color: rgba(79, 70, 229, 1);
+  border-bottom-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+
+.component-button-0 {
+  filter: drop-shadow(0px 1px 1.5px rgba(16, 24, 40, 0.1)),
+    drop-shadow(0px 1px 1px rgba(16, 24, 40, 0.06));
+  height: 20px;
+  width: 20px;
+}
+
+.component-bftooltype-frame-176a {
+  flex-direction: column;
+  display: flex;
+  row-gap: 16px;
+  font-weight: 400;
+  color: rgba(107, 114, 128, 1);
+}
+
+.component-bftext-help-a1 {
+  align-items: center;
+  display: flex;
+  column-gap: 8px;
+  line-height: 20px;
+  font-size: 14px;
+}
+
+.component-help-1 {
+  height: 20px;
+  width: 20px;
+}
+
+.component-bfdefault-a {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  row-gap: 12px;
+  align-self: stretch;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.component-bfdropdown-text-input-a {
+  align-items: center;
+  display: flex;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  align-self: stretch;
+  background-color: rgba(255, 255, 255, 1);
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-width: 1px;
+  border-color: rgba(209, 213, 219, 1);
+  border-style: solid;
+}
+
+.component-dropdown {
+  align-self: stretch;
+  width: 48px;
+}
+
+.component-text-9 {
+  padding-top: 10px;
+  padding-right: 160px;
+  padding-bottom: 10px;
+  align-self: stretch;
+  display: flex;
+}
+
+.component-bfdropdown-text-input-a0 {
+  align-items: center;
+  display: flex;
+  border-style: solid;
+  border-color: rgba(209, 213, 219, 1);
+  border-width: 1px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background-color: rgba(255, 255, 255, 1);
+  align-self: stretch;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.component-dropdown-0 {
+  align-self: stretch;
+  width: 48px;
+}
+
+.component-text-10 {
+  padding-top: 10px;
+  padding-right: 224px;
+  padding-bottom: 10px;
+  align-self: stretch;
+  display: flex;
+}
+
+.component-bftooltype-a {
+  flex-direction: column;
+  display: flex;
+  row-gap: 16px;
+  font-weight: 400;
+  color: rgba(107, 114, 128, 1);
+}
+
+.component-bftext-help-a2 {
+  align-items: center;
+  display: flex;
+  column-gap: 8px;
+  line-height: 20px;
+  font-size: 14px;
+}
+
+.component-help-2 {
+  height: 20px;
+  width: 20px;
+}
+
+.component-bfdropdown-text-input-a1 {
+  align-items: center;
+  display: flex;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  align-self: stretch;
+  background-color: rgba(255, 255, 255, 1);
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-width: 1px;
+  border-color: rgba(209, 213, 219, 1);
+  border-style: solid;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.component-dropdown-1 {
+  align-self: stretch;
+  width: 48px;
+}
+
+.component-text-12 {
+  padding-top: 10px;
+  padding-right: 176px;
+  padding-bottom: 10px;
+  align-self: stretch;
+  display: flex;
+}

@@ -1,0 +1,78 @@
+.DesktopHeaderLayout {
+	padding: 0 31px 0 21px;
+
+	display: flex;
+	align-items: center;
+	height: 100%;
+	max-width: 100%;
+}
+.DesktopHeaderLayout_logo {
+	margin-right: 29%;
+
+  @media (min-width: 1440px) {
+    margin-right: 436px;
+  }
+}
+.DesktopHeaderLayout_nav {
+	display: flex;
+	align-items: center;
+	gap: 32px;
+	margin-right: 16px;
+	& > a {
+		white-space: nowrap;
+		font-size: 14px;
+		line-height: 18px;
+
+		@media (min-width: 1440px) {
+			font-size: 16px;
+			line-height: 20px;
+		}
+	}
+	& > a:hover {
+		text-decoration: underline;
+	}
+	& > a.active {
+		color: #1398a0;
+	}
+}
+.DesktopHeaderLayout_navButton {
+	width: 24px;
+	height: 24px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: auto;
+
+	position: relative;
+}
+.DesktopHeaderLayout_notificationsButton {
+	width: 32px;
+	height: 32px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: auto;
+	position: relative;
+}
+.DesktopHeaderLayout_transparentButton,
+.DesktopHeaderLayout_coloredButton {
+	padding: 10px 16px;
+	font-weight: 500;
+	background-color: transparent;
+	color: #fff;
+	border-radius: 8px;
+	min-width: 80px;
+	white-space: nowrap;
+	font-size: 14px;
+	line-height: 18px;
+
+	@media (min-width: 1440px) {
+		font-size: 16px;
+		line-height: 20px;
+		min-width: 118px;
+	}
+}
+.DesktopHeaderLayout_coloredButton {
+	background: rgb(19, 152, 160);
+	background: linear-gradient(90deg, rgba(19, 152, 160, 1) 0%, rgba(21, 161, 169, 1) 30%, rgba(27, 184, 189, 1) 100%);
+}

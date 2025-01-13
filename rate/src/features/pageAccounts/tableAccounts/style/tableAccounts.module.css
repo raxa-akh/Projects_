@@ -1,0 +1,125 @@
+.content_table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid var(--gray-300, #d0d5dd);
+  background: var(--White, #fff);
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.06),
+    0px 1px 3px 0px rgba(16, 24, 40, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.content_table td,
+.content_table th {
+  padding: 0;
+  border-bottom: 1px solid var(--gray-300, #d0d5dd);
+}
+.content_table th {
+  color: var(--gray-500, #667085);
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px; /* 150% */
+}
+.content_table td {
+  color: var(--gray-500, #667085);
+
+  /*  */
+  font-family: Inter, Text sm/Regular;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+}
+.col {
+  display: flex;
+  height: 45px;
+  padding: 12px 24px;
+  align-items: center;
+  gap: 12px;
+  align-self: stretch;
+  background: var(--White, #fff);
+}
+.row {
+  display: flex;
+  height: 74px;
+  padding: 16px 24px;
+  align-items: center;
+  gap: 12px;
+  align-self: stretch;
+}
+.col_1 {
+  width: 310px;
+}
+.col_2 {
+  width: 233px;
+}
+.col_3 {
+  width: 176px;
+}
+.col_4 {
+  width: 168px;
+}
+.col_5 {
+  width: 132px;
+}
+.col_6 {
+  width: 178px;
+}
+.col_7 {
+  width: 293px;
+}
+.col_8 {
+  width: 64px;
+}
+
+.btn_row {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 31px;
+}
+.content_render {
+  display: flex;
+  height: 45px;
+  padding: 12px 24px;
+  align-items: center;
+  gap: 24px;
+  align-self: stretch;
+}
+.content_render_tool {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.content_render_tool_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.content_render_col {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.row_text {
+  color: var(--gray-900, #101828);
+
+  /*  */
+  font-family: Inter, Text sm/Medium;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 142.857% */
+}
+.row_text_currrent {
+  color: var(--gray-900, #101828);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+}

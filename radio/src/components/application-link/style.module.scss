@@ -1,0 +1,36 @@
+.AppplicationLink {
+  display: block;
+  background-color: #fff;
+  padding: 6px 8px 6px 6px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  width: fit-content;
+
+  & > svg {
+    flex: 0 0 auto;
+  }
+
+  & > div {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0;
+  }
+}
+.AppplicationLink_top {
+  color: #000;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 12px;
+  white-space: nowrap;
+}
+.AppplicationLink_bottom {
+  color: #000;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  white-space: nowrap;
+}
+

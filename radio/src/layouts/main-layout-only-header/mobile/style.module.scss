@@ -1,0 +1,118 @@
+.MobileMainLayoutOnlyHeader_headerWrapper {
+  width: 100%;
+  height: 88px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+  background-color: black;
+  border-bottom: 1px solid #333;
+}
+.MobileMainLayoutOnlyHeader_header {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+} 
+.MobileMainLayoutOnlyHeader_content {
+  height: 100%;
+  width: calc(100% - 40px);
+  margin: 0 auto 0;
+  padding-top: 108px;
+}
+.MobileMainLayoutOnlyHeader_footerWrapper {
+  width: 100%;
+  padding-bottom: 101px;
+  padding-top: 32px;
+  border-top: 1px solid #333;
+}
+
+.MobileMainLayoutOnlyHeader_footer {
+  height: 100%;
+  width: calc(100% - 40px);
+  margin: 0 auto;
+}
+.MobileMainLayoutOnlyHeader_player {
+  border-top: 1px solid #192C2E;
+  background-color: #0C0D0D;
+  height: 80px;
+  overflow-y: hidden;
+  position: relative;
+  overflow-x: hidden;
+  
+}
+.MobileMainLayoutOnlyHeader_playerSwiper {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 101px;
+}
+
+.MobileMainLayoutOnlyHeader_main {
+  margin-top: 35px;
+  flex: 1 1 auto;
+}
+
+.MobileMainLayoutOnlyHeader_burgerMenu {
+  height: calc(100vh - 88px);
+  position: fixed;
+  left: 0;
+  top: -100%;
+  width: 100%;
+  background-color: #000;
+  overflow-y: auto;
+}
+
+
+.MobileMainLayoutOnlyHeader_playerSwiperLine {
+  height: 21px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+  & > div {
+    height: 5px;
+    width: 50px;
+    border-radius: 100px;
+    background-color: #707070;
+  }
+}
+
+
+.MobileMainLayoutOnlyHeader_blur {
+  position: absolute;
+  top: -27px;
+  left: -68px;
+  z-index: 0;
+  transform: rotate(-58deg);
+  filter:blur(73.2px);
+}
+
+.MobileMainLayoutOnlyHeader_player {
+  & > div {
+    z-index: 1;
+    position: relative;
+  }
+}
+
+.MobileMainLayoutOnlyHeader_blur2 {
+  position: absolute;
+  top: 153px;
+  right: -86px;
+  z-index: 0;
+  transform: rotate(-58deg);
+  filter:blur(73.2px);
+}
+.MobileMainLayoutOnlyHeader_blur3 {
+  position: absolute;
+  top: 711px;
+  left: 41px;
+  z-index: 0;
+  filter:blur(73.2px);
+}

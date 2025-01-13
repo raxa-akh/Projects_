@@ -1,0 +1,39 @@
+.FooterDocumentsLinks {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.FooterDocumentsLinks_link {
+  display: block;
+  padding: 0 12px;
+  @media(min-width: 1440px) {
+    padding: 0 16px;
+  }
+  & > a {
+    font-size: 14px;
+    line-height: 24px;
+    color: #999;
+    white-space: nowrap;
+
+    @media(min-width: 1440px) {
+      font-size: 16px;
+      line-height: 28px;
+    }
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  border-right: 1px solid #fff;
+
+  &:first-child {
+    padding-left: 0;
+  }
+
+  &:last-child {
+    border-right: none;
+    padding-right: 0;
+  }
+}
+

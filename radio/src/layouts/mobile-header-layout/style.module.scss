@@ -1,0 +1,27 @@
+.MobileHeaderLayout {
+	padding: 0 20px 0 24px;
+	display: flex;
+	align-items: center;
+	height: 100%;
+	flex: 0 0 100%;
+	position: relative;
+}
+.MobileHeaderLayout_logo {
+	margin-right: auto;
+}
+.MobileHeaderLayout_notificationsButton {
+	width: 40px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: auto;
+}
+.MobileHeaderLayout_burgerMenuButton {
+	width: 32px;
+	height: 32px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 16px;
+}

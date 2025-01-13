@@ -1,0 +1,22 @@
+.FooterLinks_links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  margin-bottom: 40px;
+  gap: 16px;
+}
+
+.FooterLinks_pageLink {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+
+  @media (min-width: 1440px) {
+   font-size: 16px;
+   line-height: 20px;
+  }
+  &:hover {
+    text-decoration: underline;
+  }
+}

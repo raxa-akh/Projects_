@@ -1,0 +1,80 @@
+.react_select {
+  height: 44px;
+  display: inline-flexbox;
+  width: 100%;
+  align-content: center;
+  border-radius: 8px;
+}
+.container_main_form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.container_main_form_input_label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  flex: 1 0 0;
+  width: 520px;
+}
+.container_main_form_input {
+  display: flex;
+  padding: 10px 14px;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  border-radius: 8px;
+  border: 1px solid var(--gray-300, #d0d5dd);
+  background: var(--White, #fff);
+
+  /* Shadow/xs */
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+.container_main_form_select {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+.container_main_form_select_label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  flex: 1 0 0;
+  width: 248px;
+}
+.container_main_form label {
+  color: var(--gray-700, #344054);
+
+  /*  */
+  font-family: Inter, Text sm/Medium;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 142.857% */
+}
+.container_main_form_area {
+  display: flex;
+  height: 88px;
+  padding: 10px 14px;
+  align-items: flex-start;
+  gap: 8px;
+  align-self: stretch;
+  border-radius: 8px;
+  border: 1px solid var(--gray-300, #d0d5dd);
+  background: var(--White, #fff);
+
+  /* Shadow/xs */
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+.container_main_form_area textarea {
+  color: var(--gray-500, #667085);
+
+  /*  */
+  font-family: Inter, Text md/Regular;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}

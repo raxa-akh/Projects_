@@ -1,0 +1,112 @@
+.mb_16 {
+  margin-bottom: 16px;
+}
+
+.mb_24 {
+  margin-bottom: 24px;
+}
+.mb_32 {
+  margin-bottom: 32px;
+}
+.mb_40 {
+  margin-bottom: 40px;
+}
+
+
+.fs_20 {
+  font-size: 20px;
+}
+.fs_24 {
+  font-size: 24px;
+}
+.FormWithIcon {
+  background-color: #091616;
+  position: relative;
+  margin: 90px -20px 0px;
+  padding: 48px 20px 32px;
+  width: calc(100% + 40px);
+  @media(min-width: 1024px) {
+    border-radius: 32px;
+    width: 620px;
+    padding: 52px 60px 60px;
+    margin: 122px auto;
+  }
+  position: relative;
+}
+.FormWithIcon_blur {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  z-index: 0;
+  @media(min-width: 1024px) {
+    border-radius: 32px;
+  }
+}
+
+.FormWithIcon_blur1 {
+  position: absolute;
+  top: 130px;
+  left: -110px;
+	width: 365px;
+	height: 235px;
+	object-fit: contain;
+	z-index: 0;
+	filter: blur(73.2px);
+  transform: rotate(163deg) scale(1.5);
+}
+
+.FormWithIcon_blur2 {
+  position: absolute;
+  top: -51px;
+  right: -130px;
+	width: 365px;
+	height: 235px;
+	object-fit: contain;
+	z-index: 0;
+	filter: blur(73.2px);
+  transform: rotate(163deg) scale(0.9);
+}
+
+.FormWithIcon_icon {
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #15A3A9;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @media(min-width: 1024px) {
+    height: 80px;
+    width: 80px;
+  }
+}
+
+.FormWithIcon_Title {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  color: #fff;
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 600px;
+}
+
+.FormWithIcon_P {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.FormWithIcon_content {
+  width: 100%;
+  z-index: 1;
+  position: relative;
+}

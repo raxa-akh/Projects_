@@ -1,0 +1,31 @@
+.mb_32 {
+  margin-bottom: 32px;
+}
+.mb_24 {
+  margin-bottom: 24px;
+}
+
+.FormSeparator {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  gap: 16px;
+
+  & > div {
+    flex: 1 1 auto;
+    height: 1px;
+    width: 100%;
+    background-color: #333333;
+  }
+
+  & > p {
+    color: #fff;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 500;
+    flex: 0 0 auto;
+    white-space: nowrap;
+  }
+}

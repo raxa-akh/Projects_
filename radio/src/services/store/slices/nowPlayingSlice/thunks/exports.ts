@@ -1,0 +1,1 @@
+export { fetchNowPlaying } from './fetch-now-playing'

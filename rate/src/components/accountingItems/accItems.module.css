@@ -1,0 +1,221 @@
+.container {
+  display: flex;
+  width: 83%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  flex-shrink: 0;
+  align-self: stretch;
+}
+
+.header_acc {
+  display: flex;
+  padding: 24px 32px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
+  flex-shrink: 0;
+  align-self: stretch;
+}
+.company {
+  color: var(--Gray-900, #101828);
+  font-family: Inter, Display sm/Medium;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 38px;
+}
+.date {
+  color: var(--Gray-500, #667085);
+  font-family: Inter, Text md/Regular;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.divider {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  height: 1px;
+  flex-shrink: 0;
+  align-self: stretch;
+  background: var(--Gray-200, #eaecf0);
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 24px 32px;
+}
+.container_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 24px;
+  border: 1px solid var(--Gray-300, #d0d5dd);
+  background: var(--White, #fff);
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.06),
+    0px 1px 3px 0px rgba(16, 24, 40, 0.1);
+  width: 45%;
+}
+.header_form {
+  display: flex;
+  padding: 24px 40px;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: flex-end; */
+  border-radius: 24px;
+  gap: 24px;
+  align-self: stretch;
+  background: var(--White, #fff);
+}
+.navBtn,
+.navBtn_table {
+  display: flex;
+  align-items: flex-start;
+  align-self: stretch;
+}
+.navBtn_table {
+  width: 25%;
+}
+.form_container {
+  display: flex;
+  padding: 24px 40px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+  border-top: 1px solid var(--Gray-200, #eaecf0);
+  border-bottom: 1px solid var(--Gray-200, #eaecf0);
+  background: var(--Gray-50, #f9fafb);
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
+}
+.form_item {
+  display: flex;
+  padding: 10px 14px;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  border-radius: 8px;
+  border: 1px solid var(--Gray-300, #d0d5dd);
+  background: var(--White, #fff);
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+.select_type_item {
+  width: 100%;
+}
+.btn_add_items {
+  display: flex;
+  padding: 24px 40px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+  background: var(--White, #fff);
+  border-radius: 24px;
+}
+.add_btn {
+  display: flex;
+  padding: 12px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 8px;
+  border: 1px solid var(--Purple2-600, #444ce7);
+  background: var(--Purple2-600, #444ce7);
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+  color: var(--White, #fff);
+}
+.left_btn,
+.neutral_btn,
+.right_btn,
+.active_btn_left,
+.active_btn_neutral,
+.active_btn_right {
+  display: flex;
+  padding: 10px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex: 1 0 0;
+  border: 1px solid var(--Gray-300, #d0d5dd);
+  background: var(--White, #fff);
+  border-radius: 8px 0px 0px 8px;
+  cursor: pointer;
+}
+.neutral_btn,
+.active_btn_neutral {
+  border-radius: 0px;
+}
+.right_btn,
+.active_btn_right {
+  border-radius: 0px 8px 8px 0px;
+}
+.active_btn_neutral {
+  background: var(--Gray-50, #f9fafb);
+}
+.active_btn_left {
+  background: var(--Gray-50, #f9fafb);
+}
+.active_btn_right {
+  background: var(--Gray-50, #f9fafb);
+}
+
+.table_items {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 0px 8px 8px 8px;
+  border: 1px solid var(--Gray-300, #d0d5dd);
+  background: var(--White, #fff);
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.06),
+    0px 1px 3px 0px rgba(16, 24, 40, 0.1);
+}
+.tbody {
+  display: flex;
+  flex-direction: column;
+  color: var(--Gray-900, #101828);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 0px 16px;
+  width: 100%;
+}
+.stroke_table_items {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1vh;
+}
+.hamburger {
+  height: 20px;
+}
+tr {
+  cursor: pointer;
+  height: 5vh;
+}
+.child_main,
+.child_second {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex: 1 0 0;
+}
+.strelka {
+  height: 14px;
+  display: flex;
+}
+
+.child_second {
+  color: var(--Gray-500, #667085);
+}

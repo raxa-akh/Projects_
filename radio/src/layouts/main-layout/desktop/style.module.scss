@@ -1,0 +1,115 @@
+.MainLayoutDesktop_headerWrapper {
+	width: 100%;
+	height: 80px;
+
+	@media (min-width: 1440px) {
+		height: 100px;
+	}
+}
+.MainLayoutDesktop_header {
+	max-width: 1480px;
+	margin: 0 auto;
+	height: 100%;
+}
+
+.MainLayoutDesktop_contentWrapper {
+	width: 100%;
+	padding-bottom: 20px;
+}
+.MainLayoutDesktop_content {
+	max-width: 1480px;
+	padding: 0 20px;
+	@media (min-width: 1024px) {
+		padding: 0 31px 0 20px;
+	}
+	display: flex;
+	align-items: flex-start;
+	gap: 56px;
+	margin: 0 auto;
+}
+.MainLayoutDesktop_footerWrapper {
+	width: 100%;
+	border-top: 1px solid #333;
+	overflow: hidden;
+}
+
+.MainLayoutDesktop_footer {
+	height: 100%;
+	margin: 0 auto;
+	max-width: 1440px;
+	padding: 0 20px;
+	position: relative;
+}
+.MainLayoutDesktop_player {
+	margin-top: 32px;
+	width: 329px;
+	flex: 0 0 auto;
+	@media (min-width: 1250px) {
+		width: 400px;
+	}
+	@media (min-width: 1440px) {
+		width: 464px;
+	}
+
+	position: relative;
+}
+.MainLayoutDesktop_main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 35px;
+	flex: 1 1 auto;
+	width: calc(100% - 464px - 56px);
+	padding-right: 16px;
+}
+
+.MainLayoutDesktop_footerBlurRight {
+	position: absolute;
+	right: -160px;
+	top: -117px;
+	width: 647px;
+	height: 523px;
+	transform: rotate(-141deg) scale(1.5);
+	object-fit: contain;
+	z-index: -1;
+}
+.MainLayoutDesktop_footerBlurLeft {
+	position: absolute;
+	left: -150px;
+	top: -60px;
+	width: 620px;
+	height: 487px;
+	transform: rotate(-141deg) scale(1.5);
+	object-fit: contain;
+	z-index: -1;
+}
+.MainLayoutDesktop_playerBlur1 {
+	position: absolute;
+	top: 60px;
+	left: -179px;
+	width: 492px;
+	height: 296px;
+	object-fit: contain;
+	z-index: -1;
+	filter: blur(73.2px);
+}
+.MainLayoutDesktop_playerBlur2 {
+	position: absolute;
+	top: -93px;
+	left: 52.5px;
+	width: 406px;
+	height: 162px;
+	object-fit: contain;
+	z-index: -1;
+	filter: blur(73.2px);
+}
+
+.MainLayoutDesktop_playerBlur3 {
+	position: absolute;
+	left: 0;
+	bottom: -64px;
+	object-fit: contain;
+	z-index: -1;
+	filter: blur(73.2px);
+}

@@ -1,0 +1,15 @@
+.ControlsPanel {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  justify-content: center;
+  @media (max-width: 380px) {
+    transform: scale(0.8);
+  }
+}
+
+.ControlsPanel_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

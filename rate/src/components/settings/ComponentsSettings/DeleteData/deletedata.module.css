@@ -1,0 +1,292 @@
+.deleteData_container {
+  display: flex;
+  flex-direction: column;
+  /* gap: 24px; */
+}
+.form_password_content,
+.form_access,
+.form_finish {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+  width: 100%;
+}
+.form_password,
+.form_finish {
+  display: flex;
+  padding: 24px 40px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+  border-top: 1px solid var(--gray-200, #eaecf0);
+  border-bottom: 1px solid var(--gray-200, #eaecf0);
+  background: var(--gray-50, #f9fafb);
+  width: 100%;
+}
+.form_finish {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 14px;
+}
+.form_access {
+  gap: 15px;
+}
+.password_inner{
+  position: relative;
+  width: 70%;
+  
+}
+
+.password_delete_data {
+  display: flex;
+  padding: 10px 14px;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  border-radius: 8px;
+  border: 1px solid var(--gray-300, #d0d5dd);
+  background: var(--White, #fff);
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+  width: 100%;
+  height: 100%;
+}
+
+.intro_mail {
+  color: var(--Gray-700, #344054);
+  font-family: Inter, Text lg/Medium;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+.intro_dangerous,
+.dangerous_finish {
+  color: var(--Error-700, #b42318);
+  font-family: Inter, Text lg/Medium;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+.comment_label {
+  color: var(--Gray-700, #344054);
+  font-family: Inter, Text sm/Medium;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+.dangerous_finish {
+  font-size: 16px;
+}
+.feedback_input {
+  width: 570px;
+  height: 170px;
+  border-radius: 8px;
+  border: 1px solid var(--Gray-300, #d0d5dd);
+  background: var(--White, #fff);
+  display: flex;
+  padding: 10px 14px;
+  align-items: center;
+  gap: 8px;
+  flex: 1 0 0;
+  align-self: stretch;
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+.eye {
+  position: absolute;
+  z-index: 1;
+  left: 92%;
+  top: 35%;
+  cursor: pointer;
+}
+.form_intro {
+  color: var(--Gray-700, #344054);
+  font-family: Inter, Text lg/Medium;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+.divider,
+.divider_comment {
+  height: 1px;
+  align-self: stretch;
+  background: var(--Gray-300, #d0d5dd);
+}
+.divider_comment {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.attention {
+  color: var(--gray-700, #344054);
+  font-family: Inter, Text xl/Medium;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+}
+.deleteData_content {
+  display: flex;
+  width: 100%;
+  height: 61.3vh;
+}
+.deleteData_info {
+  width: 50%;
+  margin-right: 32px;
+  margin-top: 10px;
+}
+.info_first,
+.info_second {
+  color: var(--gray-700, #344054);
+  font-family: Inter, Text md/Regular;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.info_second {
+  margin-top: 16px;
+}
+.option {
+  display: flex;
+  align-items: center;
+}
+.confirm_delete_btn,
+.confirm_letter_btn {
+  display: flex;
+  padding: 12px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 8px;
+  border: 1px solid var(--error-600, #d92d20);
+  background: var(--error-600, #d92d20);
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+  color: var(--White, #fff);
+  cursor: pointer;
+}
+
+.confirm_letter_btn{
+  background-color: #fff;
+  border-color: #c3bcbc;
+  color: #000;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+  width: 100%;
+
+  position: fixed;
+  bottom: 4%;
+}
+.actions_footer {
+  display: flex;
+  align-items: center;
+  align-self: stretch;
+
+  margin-top: 1rem;
+}
+.checkbox_options {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  flex: 1 0 0;
+
+  margin-top: 10px;
+}
+
+.checkbox_option{
+  display: flex;
+  flex-direction: row;
+}
+/* .checkbox_form {
+  margin-right: 8px;
+} */
+
+.checkbox_container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+  top: 0px; 
+  left: 0;
+  z-index: 1;
+
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+
+.checkbox_container {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 16px;
+  user-select: none;
+  position: relative;
+  padding-left: 30px;
+  margin-right: 10px;
+  
+}
+
+.checkbox_container .checkbox_form {
+  position: absolute;
+  left: 0;
+  top: 0px;
+  height: 20px;
+  width: 20px;
+  background-color: #ffffff;
+  border: 2px solid #D0D5DD;
+  border-radius: 50%;
+
+}
+
+
+.checkbox_container:hover .checkbox_form {
+  background-color: #e1dbdb;
+}
+
+.checkbox_container input:checked + .checkbox_form {
+  background-color: #444CE7;
+  border-color: #444CE7;
+}
+
+.checkbox_container .checkbox_form:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.checkbox_container input:checked + .checkbox_form:after {
+  display: block;
+}
+
+.checkbox_container .checkbox_form:after {
+  left: 5px;
+  top: 1px;
+  width: 6px;
+  height: 12px;
+  border: solid white;
+  border-width: 0 2.5px 2.5px 0;
+  transform: rotate(45deg);
+}
+
+
+@media (max-width: 1000px){
+  .deleteData_content{
+    flex-direction: column;
+  }
+  .checkbox_options{
+    margin-top: 20px;
+  }
+}

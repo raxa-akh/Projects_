@@ -1,0 +1,111 @@
+.container_table {
+  border-collapse: collapse;
+  /* border: 1px solid var(--gray-300, #d0d5dd); */
+  background: var(--White, #fff);
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.06),
+    0px 1px 3px 0px rgba(16, 24, 40, 0.1);
+  border-radius: 0px 8px 8px 8px;
+  overflow: hidden;
+  width: 100%;
+}
+.container_table tbody {
+  border: 1px solid var(--gray-300, #d0d5dd);
+}
+.container_table td,
+.container_table th {
+  border-bottom: 1px solid var(--gray-300, #d0d5dd);
+}
+.col {
+  background: var(--Gray-50, #f9fafb);
+  display: flex;
+  height: 45px;
+  padding: 12px 24px;
+  align-items: center;
+  gap: 12px;
+  align-self: stretch;
+
+  color: var(--Gray-900, #101828);
+  font-family: Inter, Text sm/Semibold;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px; /* 142.857% */
+}
+.col_dop {
+  display: flex;
+  height: 45px;
+  padding: 12px 24px;
+  align-items: center;
+  gap: 12px;
+  align-self: stretch;
+  background: var(--White, #fff);
+
+  color: var(--Gray-900, #101828);
+  font-family: Inter, Text sm/Medium;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 142.857% */
+}
+.row {
+  display: flex;
+  height: 45px;
+  padding: 12px 24px;
+  align-items: center;
+  gap: 12px;
+  align-self: stretch;
+  background: var(--Gray-50, #f9fafb);
+  color: var(--Gray-500, #667085);
+  font-family: Inter, Text sm/Regular;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+}
+.row_end {
+  display: flex;
+  height: 45px;
+  padding: 12px 24px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 12px;
+  align-self: stretch;
+  background: var(--Gray-50, #f9fafb);
+  color: var(--Gray-500, #667085);
+  font-family: Inter, Text sm/Regular;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+}
+.row_dop {
+  display: flex;
+  height: 45px;
+  padding: 12px 24px;
+  align-items: center;
+  gap: 12px;
+  align-self: stretch;
+  background: var(--White, #fff);
+  color: var(--Gray-500, #667085);
+  font-family: Inter, Text sm/Regular;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+}
+.row_dop_end {
+  display: flex;
+  height: 45px;
+  padding: 12px 24px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 12px;
+  align-self: stretch;
+  background: var(--White, #fff);
+  color: var(--Gray-500, #667085);
+  font-family: Inter, Text sm/Regular;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+}

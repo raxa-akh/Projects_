@@ -1,0 +1,18 @@
+.indicators_main {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 32px;
+  flex: 1 0 0;
+  align-self: stretch;
+  height: 100vh;
+  width: 100%;
+}
+.method_content {
+  position: relative;
+  top: 12vh;
+  left: 1vh;
+}
+.select_indicator {
+  width: 20%;
+  height: 48px;
+}

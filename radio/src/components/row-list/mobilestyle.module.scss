@@ -1,0 +1,28 @@
+.MobileRowList {
+  margin-bottom: 16px;
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.MobileRowList_head {
+  margin-bottom: 20px;
+  & > h2 {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #FFF1F1;
+    margin-bottom: 4px;
+  }
+
+  & > button {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #999999;
+    margin-bottom: 4px;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

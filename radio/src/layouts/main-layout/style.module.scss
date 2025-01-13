@@ -1,0 +1,94 @@
+.MainLayout_headerWrapper_desktop {
+  width: 100%;
+  height: 100px;
+}
+.MainLayout_headerWrapper_mobile {
+  width: 100%;
+  height: 88px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.MainLayout_header_desktop {
+  max-width: 1480px;
+  padding: 0 20px;
+  margin: 0 auto;
+  height: 100%;
+  background-color: red;
+}
+.MainLayout_header_mobile {
+  height: 100%;
+  background-color: red;
+  width: calc(100% - 40px);
+  margin: 0 auto;
+} 
+
+
+.MainLayout_contentWrapper_desktop {
+  width: 100%;
+}
+.MainLayout_content_desktop {
+  max-width: 1480px;
+  padding: 0 20px;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  background-color: green;
+  width: calc(100% - 40px);
+  gap: 56px;
+  margin: 0 auto;
+}
+.MainLayout_content_mobile {
+  height: 100%;
+  background-color: green;
+  width: calc(100% - 40px);
+  margin: 0 auto;
+}
+.MainLayout_footerWrapper {
+  width: 100%;
+  background-color: cadetblue;
+}
+
+.MainLayout_footer {
+  height: 100%;
+  width: calc(100% - 40px);
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: chartreuse;
+
+}
+.MainLayout_player {
+  height: 80px;
+
+  @media(min-width: 1480px) {
+    margin-top: 32px;
+    width: 464px;
+    flex: 0 0 464px;
+    height: 909px;
+  }
+}
+.MainLayout_playerSwiper {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: pink;
+  height: 101px;
+}
+
+.MainLayout_main {
+  margin-top: 35px;
+  flex: 1 1 auto;
+  height: 1400px;
+  background-color: white;
+}
+
+.MainLayout_burgerMenu {
+  height: calc(100vh - 88px);
+  position: fixed;
+  top: 88px;
+  left: -100%;
+  width: 100%;
+  background-color: aqua;
+}

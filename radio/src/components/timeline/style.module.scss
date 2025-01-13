@@ -1,0 +1,54 @@
+.Timeline {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  gap: 4px;
+  padding: 0 6px;
+
+  & > input {
+    width: 100%;
+  }
+}
+
+.Timeline_live {
+  align-self: flex-end;
+  display: flex;
+  align-items: center;
+  padding: 0 8px;
+
+  & > p {
+    line-height: 17px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+  }
+}
+
+.Timeline_time {
+  width: 100%;
+  padding: 0 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  & > p {
+    line-height: 17px;
+    font-size: 14px;
+    color: #fff;
+  }
+}
+
+.thumb {
+  opacity: 0;
+  &:hover {
+    opacity: 1;
+  }
+
+  &:active {
+    opacity: 1;
+  }
+
+  transition: all 0.3s ease 0s;
+}

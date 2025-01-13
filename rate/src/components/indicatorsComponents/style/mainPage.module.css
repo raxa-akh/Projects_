@@ -1,0 +1,59 @@
+.main_indicator {
+  width: 100%;
+}
+.select_page {
+  display: flex;
+}
+.profit_page {
+  width: 100%;
+  height: 74.2vh;
+}
+
+.accrual_block,
+.accrual_block_balance {
+  display: flex;
+  flex-direction: column;
+  border-radius: 0px 8px 8px 8px;
+  border: 1px solid var(--gray-300, #d0d5dd);
+  background: var(--White, #fff);
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+  width: 100%;
+  height: 70vh;
+}
+.accrual_block_balance {
+  height: 74.2vh;
+  border-radius: 8px;
+}
+.left_btn,
+.right_btn,
+.neutral_btn,
+.active_btn_neutral,
+.active_btn_right,
+.active_btn_left {
+  font-size: 14px;
+  color: var(--gray-700, #344054);
+  border: 1px solid var(--gray-300, #d0d5dd);
+  outline: none;
+  column-gap: 8px;
+  cursor: pointer;
+  padding: 10px 16px;
+  background: var(--gray-50, #f9fafb);
+}
+.left_btn {
+  border-radius: 8px 0px 0px 0px;
+}
+.active_btn_left {
+  border-radius: 8px 0px 0px 0px;
+  background: var(--White, #fff);
+}
+.active_btn_right {
+  border-radius: 0px 8px 0px 0px;
+  background: var(--White, #fff);
+}
+.active_btn_neutral {
+  background: var(--White, #fff);
+}
+
+.right_btn {
+  border-radius: 0px 8px 0px 0px;
+}

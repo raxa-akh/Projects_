@@ -1,0 +1,55 @@
+.BurgerMemuLayout {
+  margin: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.BurgerMemuLayout_auth {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  & > button {
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 500;
+    color: #fff;
+  }
+}
+
+.BurgerMemuLayout_links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.BurgerMemuLayout_pageLink {
+  border-bottom: 1px solid #333;
+  width: 100%;
+  padding: 15px 0;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 500;
+
+  &.active {
+    color: #1398A0;
+  }
+
+  &:first-child {
+    border-top: 1px solid #333;
+  }
+}
+
+.BurgerMemuLayout_socialMedia {
+  margin-bottom: 16px;
+  gap: 16px;
+  padding: 32px 0;
+  border-bottom: 1px solid #333;
+  width: 100%;
+}
+
+.BurgerMemuLayout_copyRight {
+  margin-bottom: 16px;
+}

@@ -1,0 +1,54 @@
+.DesktopRowList {
+  width: 100%;
+  margin-bottom: 32px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+.DesktopRowList_head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 24px;
+
+  & > h2 {
+    color: #FFF1F1;
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 700;
+  }
+
+  & > button {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #999999;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.DesktopRowList_flex {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  & > div {
+    flex: 0 0 auto;
+    width: calc((100% - 16*3px)/4);
+    &:last-child {
+      display: none;
+    }
+
+    @media (min-width: 1250px) {
+      width: calc((100% - 16*4px)/5);
+      &:last-child {
+        display: block;
+      }
+    }
+  }
+}

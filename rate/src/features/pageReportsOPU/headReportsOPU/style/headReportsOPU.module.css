@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+  margin: 32px 0;
+}
+.container_title_head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.container_title_head_text {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}

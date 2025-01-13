@@ -1,0 +1,1 @@
+export { fetchRecomendation } from './fetch-recomendation'

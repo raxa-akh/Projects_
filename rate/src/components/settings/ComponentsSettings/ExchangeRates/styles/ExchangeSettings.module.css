@@ -1,0 +1,111 @@
+:root {
+    font-family: Inter, sans-serif;
+    font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
+  }
+  @supports (font-variation-settings: normal) {
+    :root { font-family: InterVariable, sans-serif; }
+  }
+
+@import url('https://fonts.googleapis.com/css2?family=Alatsi&display=swap');
+.container{
+    background-color: #FCFCFD;
+}
+
+.header{
+    margin-bottom: 24px;
+}
+
+.header_title{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.header_title > span{
+    font-weight: 700;
+}
+
+hr{
+    margin-top: 20px;
+}
+
+.main{
+    margin-top: 20px;
+    max-width: 1900px;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.table_cont{
+    margin-right: 70px;
+    min-width:750px;
+    width: 100%;
+
+    background-color: #FFFFFF;
+    border: 1px solid #EAECF0;
+    border-radius: 10px;
+}
+
+.table_cont:last-child{
+    min-width: 630px;
+}
+
+table{
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    
+}
+
+thead{
+    background-color: inherit;
+    border-bottom: 1px solid #EAECF0;
+}
+
+td, tr, th{
+    border: none;
+    padding: 15px 10px;
+    
+}
+
+th{
+    font-size: 12px;
+    font-weight: 500;
+    padding-left: 5px;
+    text-align: left;
+    color: #667085;
+    position: relative;
+}
+
+th > img{
+    position: absolute;
+    right: 30%;
+    top: 40%;
+    width: 9px;
+    height: 9px;
+}
+
+.name, .cost{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.description, .simbol{
+    font-size: 14px;
+    font-weight: 300;
+    color: #667085;
+
+}
+
+.simbol{
+    font-family: "Alatsi", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+
+}

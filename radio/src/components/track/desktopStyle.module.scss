@@ -1,0 +1,79 @@
+.share_window{
+    position: absolute;
+    bottom: -10%;
+    right: 13%;
+    background: linear-gradient(to right, #002b2b 30%, #003434 50%, #003d3d 70%, #004646 85%, #005050 100%);
+    padding: 12px;
+
+    width: 128px;
+    height: 84px;
+    border-radius: 12px;
+}
+
+.share_window_inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    position: relative;
+}
+
+.share_btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.share_link{
+    position: relative;
+}
+
+.link{
+    width: 104px;
+    height: 24px;
+
+    padding: 4px 25px 4px 24px;
+
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15.85px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #999999;
+    background-color: #000000;
+    border: none;
+    border-radius: 4px;
+}
+
+.link:focus{
+    outline: none;  
+}
+
+.link_img{
+    position: absolute;
+    top: 25%;
+    left: 5%;
+}
+
+.copy_btn{
+    position: absolute;
+    right: 0;
+    top: 4%;
+}
+
+.btn{
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+    background: linear-gradient(90deg, #1398A0 0%, #1BB8BD 67.54%);
+    border: 1px solid #000000;
+    padding: 4px;
+
+}
+
+.arrow_open{
+    position: absolute;
+    top: -37%;
+    left: 0;
+}

@@ -1,0 +1,42 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  align-self: stretch;
+  width: 100%;
+
+  position: fixed;
+  bottom: 2.5%
+}
+.actions_footer {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  align-self: stretch;
+}
+.back_settings,
+.save_settings {
+  display: flex;
+  padding: 10px 16px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  gap: 8px;
+  border-radius: 8px;
+  border: 1px solid var(--gray-300, #d0d5dd);
+  background: var(--White, #fff);
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+.save_settings {
+  border-radius: 8px;
+  border: 1px solid var(--purple-2600, #444ce7);
+  background: var(--purple-2600, #444ce7);
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+  color: var(--White, #fff);
+}
+
+.back_settings:hover,
+.save_settings:hover{
+  transform: scale(0.9);
+}

@@ -1,0 +1,119 @@
+.inner{
+    position: relative;
+}
+
+.arrow_next{
+  display: none;
+    position: absolute;
+    z-index: 1;
+    top: 65%;
+    right: 35px;
+    cursor: pointer;
+
+    @media(min-width: 560px) {
+      right: 121px;
+      display: block;
+    }
+}
+
+
+.arrow_prev{
+  display: none;
+    position: absolute;
+    z-index: 1;
+    top: 65%;
+    left: 35px;
+    cursor: pointer;
+
+    @media(min-width: 560px) {
+      left: 121px;
+      display: block;
+    }
+}
+
+.dots {
+  display: none !important;
+
+  @media(min-width: 560px) {
+    display: block;
+  }
+}
+.slickDots {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex !important;
+    justify-content: center;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    display: none !important;
+
+    @media(min-width: 560px) {
+      display: block;
+    }
+  }
+  
+  .slickDots li {
+    margin: 0 3px;
+  }
+  .slickDots li button {
+    width: 10px; /* Размер точек */
+    height: 10px;
+    border-radius: 50%;
+    background-color: gray;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .slickDots li button:before {
+    display: none;
+  }
+
+  .slickDots li{
+    display: none;
+    width: 10px;
+    height: 10px;
+  }
+  
+  .customDot {
+    width: 10px;
+    height: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+.container{
+  width: calc(100% + 40px);
+  margin: 0 -20px;
+  margin-bottom: 40px;
+  z-index: 0;
+  position: relative;
+  @media(min-width: 1024px) {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 40px;
+  }
+    
+}
+
+.slider_item{
+  padding: 0 12px;
+}
+
+.slider_item_inner{
+    height: 231px;
+    border-radius: 24px;
+    overflow: hidden;
+}
+
+.slider_item_inner > img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+

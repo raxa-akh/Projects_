@@ -1,0 +1,110 @@
+.container{
+    width: 165px;
+    height: 165px;
+    @media(min-width: 1024px) {
+      padding-top: 100%;
+      width: 100%;
+      height: 0;
+    }
+    position: relative;
+}
+
+.inner{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.img{
+    transition: filter 0.2s linear;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    border-radius: 12px;
+    overflow: hidden;
+    & > img {
+      object-fit: cover;
+    }
+
+}
+
+.text{
+    position: absolute;
+    bottom: 0;
+    height: 46px;
+    width: 100%;
+
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 0 0 12px 12px;
+    padding-left: 10px;
+    padding-top: 5px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 4px;
+}
+
+.title{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.07px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+.author{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.63px;
+    text-align: left;
+    color: #fff;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+.buttons{
+    position: absolute;
+    bottom: 45%;
+    right: 15%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+
+
+    opacity: 0;
+    transition: opacity 0.2s linear;
+}
+
+.inner:hover .img{
+    filter: brightness(0.5);
+}
+
+.inner:hover .buttons{
+    opacity: 1;
+}
+
+.favorite{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    opacity: 1;
+    transition: opacity 0.2s linear;
+}
+
+.inner:hover .favorite{
+    opacity: 0;
+}
+

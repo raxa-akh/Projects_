@@ -1,0 +1,66 @@
+.CollapsedPlayerLayout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+  gap: 12px;
+  height: 100%;
+
+  & > .CollapsedPlayerLayout_playbutton {
+    height: fit-content;
+    width: fit-content;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 auto;
+  }
+
+  & > .CollapsedPlayerLayout_addonButtons {
+    height: 32px;
+    width: 32px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 auto;
+  }
+}
+
+.CollapsedPlayerLayout_image {
+  border-radius: 8px;
+  overflow: hidden;
+  object-fit: cover;
+  flex: 0 0 auto;
+}
+
+.ml_auto {
+  margin-left: auto;
+}
+
+.CollapsedPlayerLayout_info {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  flex: 1 1 auto;
+  overflow: hidden;
+}
+.CollapsedPlayerLayout_infoName {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #fff;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}
+.CollapsedPlayerLayout_infoAuthor {
+  font-size: 16px;
+  line-height: 20px;
+  color: #1398A0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}

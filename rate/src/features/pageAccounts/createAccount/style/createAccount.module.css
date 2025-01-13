@@ -1,0 +1,83 @@
+.block_account {
+  display: flex;
+  width: 536px;
+  flex-direction: column;
+  align-items: flex-end;
+  border-radius: 24px;
+  border: 1px solid var(--gray-300, #d0d5dd);
+  background: var(--White, #fff);
+}
+.container_account_head {
+  display: flex;
+  padding: 24px 40px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+
+  color: var(--gray-900, #101828);
+
+  /*  */
+  font-family: Inter, Display sm/Medium;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 38px; /* 126.667% */
+}
+.form_account {
+  display: flex;
+  padding: 40px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
+  background: var(--gray-50, #f9fafb);
+}
+.footer_btn {
+  display: flex;
+  padding: 24px 40px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 24px;
+  align-self: stretch;
+}
+.frame132 {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
+}
+.frame135 {
+  display: flex;
+  align-items: flex-end;
+  gap: 16px;
+  align-self: stretch;
+}
+.form_account_input_block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  align-self: stretch;
+  flex: 1 0 0;
+}
+.form_account_input {
+  display: flex;
+  padding: 10px 14px;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  border-radius: 8px;
+  border: 1px solid var(--gray-300, #d0d5dd);
+  background: var(--White, #fff);
+
+  /* Shadow/xs */
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+.frame134 {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
+}

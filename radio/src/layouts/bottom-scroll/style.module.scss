@@ -1,0 +1,44 @@
+.BottomScroll {
+  width: calc(100% + 23px);
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin-right: -20px;
+  padding-right: 20px;
+
+  /* Firefox (uncomment to work in Firefox, although other properties will not work!)  */
+/** {
+  scrollbar-width: thin;
+  scrollbar-color: #1BB8BD #999999;
+}*/
+
+/* Chrome, Edge and Safari */
+&::-webkit-scrollbar {
+  height: 4px;
+  width: 4px;
+}
+&::-webkit-scrollbar-track {
+  border-radius: 4px;
+  background-color: #999999;
+}
+
+&::-webkit-scrollbar-track:hover {
+  background-color: #838383;
+}
+
+&::-webkit-scrollbar-track:active {
+  background-color: #797979;
+}
+
+&::-webkit-scrollbar-thumb {
+  border-radius: 1px;
+  background-color: #1BB8BD;
+}
+
+&::-webkit-scrollbar-thumb:hover {
+  background-color: #179DA1;
+}
+
+&::-webkit-scrollbar-thumb:active {
+  background-color: #179A9F;
+}
+}
